@@ -1,5 +1,4 @@
 import serial
-import hashlib
 import time
 import binascii
 import base64
@@ -12,11 +11,6 @@ from cryptography.hazmat.primitives import padding as sym_padding
 from cryptography.hazmat.backends import default_backend
 import os
 
-# Method for computing the SHA256 hash of a message
-# def compute_sha256(message: str) -> bytes:
-#     sha = hashlib.sha256()
-#     sha.update(message.encode('utf-8'))
-#     return sha.digest()  
 
 # This function sends a message to the ESP32 over serial
 # It includes the SHA256 hash of the message for verification
