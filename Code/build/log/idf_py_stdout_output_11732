@@ -1,0 +1,42 @@
+[1/34] Linking C static library esp-idf\esp_driver_gpio\libesp_driver_gpio.a
+[2/34] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Project-Laboratory-Shobhit\build\bootloader\esp-idf\esptool_py && C:\Users\bhask\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/bhask/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Project-Laboratory-Shobhit/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6580 bytes. 0xa80 bytes (9%) free.
+[3/34] No install step for 'bootloader'
+[4/34] Linking C static library esp-idf\xtensa\libxtensa.a
+[5/34] Linking C static library esp-idf\unity\libunity.a
+[6/34] Linking C static library esp-idf\esp_https_server\libesp_https_server.a
+[7/34] Completed 'bootloader'
+[8/34] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/hello_world_main.c.obj
+[9/34] Linking C static library esp-idf\json\libjson.a
+[10/34] Linking C static library esp-idf\wear_levelling\libwear_levelling.a
+[11/34] Linking C static library esp-idf\app_trace\libapp_trace.a
+[12/34] Linking C static library esp-idf\esp_driver_cam\libesp_driver_cam.a
+[13/34] Linking C static library esp-idf\esp_hid\libesp_hid.a
+[14/34] Linking C static library esp-idf\esp_eth\libesp_eth.a
+[15/34] Linking C static library esp-idf\console\libconsole.a
+[16/34] Linking C static library esp-idf\cmock\libcmock.a
+[17/34] Linking C static library esp-idf\rt\librt.a
+[18/34] Linking C static library esp-idf\mqtt\libmqtt.a
+[19/34] Linking C static library esp-idf\main\libmain.a
+[20/34] Linking C static library esp-idf\perfmon\libperfmon.a
+[21/34] Linking C static library esp-idf\fatfs\libfatfs.a
+[22/34] Linking C static library esp-idf\nvs_sec_provider\libnvs_sec_provider.a
+[23/34] Linking C static library esp-idf\spiffs\libspiffs.a
+[24/34] Linking C static library esp-idf\espcoredump\libespcoredump.a
+[25/34] Linking C static library esp-idf\esp_lcd\libesp_lcd.a
+[26/34] Linking C static library esp-idf\protobuf-c\libprotobuf-c.a
+[27/34] Linking C static library esp-idf\protocomm\libprotocomm.a
+[28/34] Linking C static library esp-idf\esp_local_ctrl\libesp_local_ctrl.a
+[29/34] Linking C static library esp-idf\wifi_provisioning\libwifi_provisioning.a
+[30/34] Generating ld/sections.ld
+[31/34] Building C object CMakeFiles/Project-Laboratory-Shobhit.elf.dir/project_elf_src_esp32.c.obj
+[32/34] Linking CXX executable Project-Laboratory-Shobhit.elf
+[33/34] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Project-Laboratory-Shobhit/build/Project-Laboratory-Shobhit.bin
+[34/34] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Project-Laboratory-Shobhit\build\esp-idf\esptool_py && C:\Users\bhask\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/bhask/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Project-Laboratory-Shobhit/build/partition_table/partition-table.bin C:/Project-Laboratory-Shobhit/build/Project-Laboratory-Shobhit.bin"
+Project-Laboratory-Shobhit.bin binary size 0x34dc0 bytes. Smallest app partition is 0x100000 bytes. 0xcb240 bytes (79%) free.

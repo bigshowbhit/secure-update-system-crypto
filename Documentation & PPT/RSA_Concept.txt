@@ -1,0 +1,22 @@
+Laptop: {message: Hello how are you} 
+Send to MCU
+
+First step:
+Sign with laptop's private key
+{ message: Hello how are you
+signature: sign }
+
+Second step:
+Encrypt with MCU's public key
+klsadnjlakjdlowiqjdiqwjdlikqjwlkdjqwslkdjlqwksdj
+
+MCU:
+MCU receives:
+klsadnjlakjdlowiqjdiqwjdlikqjwlkdjqwslkdjlqwksdj
+
+MCU decrypts with its private key:
+{ message: Hello how are you
+signature: sign }
+
+MCU verifies signature with Laptop's public key:
+message: Hello how are you
